@@ -112,18 +112,18 @@ GO
 
 
 insert into cliente values
-  (newid(), 'Juan', 'Perez', 1, '20123212', '994995992', 'mimail@correo.com', 'Jr Las Palmas', '150101', 0, 0, 'System', GETUTCDATE(), '', null, '', null)
+  ('CBCEF394-BC8B-4C41-912E-608E324E5C22', 'Juan', 'Perez', 1, '20123212', '994995992', 'mimail@correo.com', 'Jr Las Palmas', '150101', 0, 0, 'System', GETUTCDATE(), '', null, '', null)
   
 insert into cliente values
-  (newid(), 'Miguel', 'Caceres', 1, '40158754', '911945945', 'mcaceres@correo.com', 'Av Colmena', '150101', 1, 0, 'System', GETUTCDATE(), '', null, '', null)
+  ('BE53BFAD-23DA-48E3-A351-B420FFAEFA7E', 'Miguel', 'Caceres', 1, '40158754', '911945945', 'mcaceres@correo.com', 'Av Colmena', '150101', 1, 0, 'System', GETUTCDATE(), '', null, '', null)
 GO
 
 insert into Libro values
-  (NEWID(), 'El Mago de los Libros', 'Autor Uno', 15, 65, NEWID(), 3, 3, 0, 'System', GETUTCDATE(), '', null, '', null)
+  ('788EF8F5-FD91-4A09-9E6C-5D9AC5E1F2FA', 'El Mago de los Libros', 'Autor Uno', 15, 65, '34719D76-2DA1-4194-8063-E47B72FDB2AA', 3, 3, 0, 'System', GETUTCDATE(), '', null, '', null)
 
 insert into Libro values
-  (NEWID(), 'El Mago de los Libros II', 'Autor Uno', 15, 65, NEWID(), 3, 1, 0, 'System', GETUTCDATE(), '', null, '', null)
+  ('F5CDB965-F51F-4A5D-B32E-7CB40E143269', 'El Mago de los Libros II', 'Autor Uno', 15, 65, '2EEF8691-5902-414C-89EF-1BB5A8702444', 3, 1, 0, 'System', GETUTCDATE(), '', null, '', null)
   
 insert into Libro values
-  (NEWID(), 'El Mago de los Libros III', 'Autor Uno', 15, 65, NEWID(), 1, 0, 0, 'System', GETUTCDATE(), '', null, '', null)
+  ('DA7D3495-A3CD-49E3-851F-CA8C9B64C42E', 'El Mago de los Libros III', 'Autor Uno', 15, 65, '39DEA692-1C6A-4922-B9C6-D33BC71AA22C', 1, 0, 0, 'System', GETUTCDATE(), '', null, '', null)
 GO
